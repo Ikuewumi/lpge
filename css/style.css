@@ -282,7 +282,8 @@ footer {
   }
 }
 
-@supports not (display: grid) {
+@supports not (display: grid),
+@supports not (gap: 2em){
   .content__img,
   .content__text,
   .org__name,
